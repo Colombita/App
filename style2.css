@@ -77,7 +77,7 @@ input{
     cursor: pointer;
     font-weight: bold;
     text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
 }
 .login-form input[type="submit"]:hover{
     background: #e8003a;
