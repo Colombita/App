@@ -1,0 +1,11 @@
+FLASK
+
+Open cmd
+-- Change directory to folder: cd ....
+-- Create environment: py -m venv venv
+-- Activate environment: venv\Scripts\activate
+-- Install flask: pip install flask
+-- pip install Flask-Session
+-- Set app: set FLASK_APP=app.py
+-- Set development mode: set FLASK_ENV=development
+-- Run app: flask run

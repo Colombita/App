@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    Register Page
+{% endblock %}
+
+{% block body %}
+  <div class="limiter">
+    <div class="container-login" style="background-image: url('../static/images/bg4.jpg');">
+      <div class="wrap-login p-l-110 p-r-110 p-t-62 p-b-33">
+        <form class="login-form" action="{{ url_for('home') }}" method="post">
+          <div class="form-group">
+            <span class="login-form-title">
+                What's your Taste?
+            </span>
+              <div class="p-t-31 p-b-9" style="text-align: center;">
+                <h2 class="txt1">
+                  React to a few movies to get started!
+                </h2>
+
+                <h3 class="txt1 p-t-17 m-t-17" style="text-align: center;">
+                  Movie Title #1
+                </h3>
+
+              <div class="btn-group p-t-31" role="group" style="text-align: center;">
+                <button type="button" class="btn btn-secondary login100-form-btn">Dislike!</button>
+                <button type="button" class="btn btn-secondary login100-form-btn">Like!</button>
+                <button type="button" class="btn btn-secondary login100-form-btn">Love!</button>
+              </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
